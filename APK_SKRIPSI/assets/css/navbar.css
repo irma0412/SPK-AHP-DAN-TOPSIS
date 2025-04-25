@@ -1,0 +1,112 @@
+/* Gaya Navbar */
+.navbar-default {
+    background-color: #13072E; /* Warna latar belakang navbar */
+    border-color:#13072E; /* Warna garis batas navbar */
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #fff; /* Warna teks navbar dan brand */
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #6df5fa; /* Warna teks navbar dan brand saat dihover/fokus */
+}
+
+/* Gaya tombol toggle navbar di mode responsif */
+.navbar-default .navbar-toggle {
+    border-color: #fff; /* Warna garis tombol toggle */
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color:#543696; /* Warna latar belakang tombol toggle saat dihover/fokus */
+}
+
+/* Gaya navbar saat digulung */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color:#13072E; /* Warna garis batas navbar dalam mode responsif */
+}
+
+/* Gaya teks dan latar belakang navbar dalam mode responsif */
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,
+.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #543696; /* Warna latar belakang item dropdown saat dihover/fokus */
+    color: #fff; /* Warna teks item dropdown saat dihover/fokus */
+}
+
+/* Gaya footer */
+.footer {
+    color: #13072E; /* Warna teks footer */
+
+
+}
+/* Gaya navbar aktif */
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #fff; /* Warna latar belakang saat menu aktif */
+    color: #320270; /* Warna teks saat menu aktif */
+    text-shadow: none; /*hilangkan shadow text saat menu aktif*/
+}
+
+/* Gaya dropdown aktif */
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #fff; /* Warna latar belakang saat dropdown aktif */
+    color: #13072E; /* Warna teks saat dropdown aktif */
+    text-shadow: none; /* menghilangkan shadow pada text saat dropdown aktif */
+}
+/* Gaya kotak login */
+.panel-primary {
+    border-color: #13072E; /* Warna garis kotak login */
+}
+
+.panel-primary > .panel-heading {
+    background-color: #13072E; /* Warna latar belakang heading kotak login */
+    color: #fff; /* Warna teks heading kotak login */
+    border-color: #13072E; /* Warna garis batas heading kotak login */
+}
+/* Gaya page header */
+.page-header h1 {
+    color:#13072E; /* Warna teks page header */
+    border-bottom: 2px solid #13072E; /* Garis bawah page header */
+    padding-bottom: 10px; /* Ruang bawah page header */
+}
+
+/* Gaya paragraf */
+p {
+    color: #333; /* Warna teks paragraf */
+    line-height: 1.6; /* Tinggi baris paragraf */
+}
+
+/* Gaya teks tebal */
+strong {
+    font-weight: bold;
+}
+
+/* Gaya teks miring */
+em {
+    font-style: italic;
+}
+
+/* Gaya hyperlink */
+a {
+    color: #6e1a92; /* Warna teks hyperlink */
+    text-decoration: none; /* Menghilangkan garis bawah hyperlink */
+}
+
+a:hover {
+    text-decoration: underline; /* Menampilkan garis bawah saat dihover hyperlink */
+}
+/* Gaya paragraf rata kanan kiri */
+p {
+    text-align: justify; /* Tulisan rata kanan kiri */
+}
+
+
